@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+
+    <meta name="title" content="Filmsupply" data-react-helmet="true" />
+    <meta
+      name="description"
+      content="Filmsupply | Revolutionizing Stock Footage"
+      data-react-helmet="true"
+    />
+
+    <link rel="preconnect" href="//web.cmp.usercentrics.eu" />
+    <link rel="preconnect" href="//app.usercentrics.eu" />
+    <link rel="preconnect" href="//api.usercentrics.eu" />
+    <link
+      rel="preload"
+      href="https://web.cmp.usercentrics.eu/ui/loader.js"
+      as="script"
+    />
+
+    <script>
+      /** https://developers.google.com/tag-platform/security/guides/consent?consentmode=basic#upgrade-consent-v2 */
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('consent', 'default', {
+        ad_user_data: 'denied',
+        ad_personalization: 'denied',
+        ad_storage: 'denied',
+        analytics_storage: 'denied',
+        wait_for_update: 500,
+      });
+      dataLayer.push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+    </script>
+
+    <script src="https://web.cmp.usercentrics.eu/modules/autoblocker.js"></script>
+    <script
+      id="usercentrics-cmp"
+      src="https://web.cmp.usercentrics.eu/ui/loader.js"
+      data-ruleset-id="SwfkwjGPGNbASe"
+      async
+    ></script>
+
+    <script
+      type="text/plain"
+      data-usercentrics="HubSpot"
+      src="https://js.hs-scripts.com/4300863.js"
+      async
+    ></script>
+
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      window.ire = window.ire || (() => null);
+    </script>
+    
+    <!-- Google Tag Manager -->
+    <script type="text/JavaScript" data-category="analytics">
+      (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-N7F273');
+    </script>
+    <!-- End Google Tag Manager -->
+    <!-- Impact tracking snippet -->
+    <script type="text/plain" data-category="analytics">
+      (function(a, b, c, d, e, f, g) {
+        e['ire_o'] = c;
+        e[c] =
+          e[c] ||
+          function() {
+            (e[c].a = e[c].a || []).push(arguments);
+          };
+        f = d.createElement(b);
+        g = d.getElementsByTagName(b)[0];
+        f.async = 1;
+        f.src = a;
+        g.parentNode.insertBefore(f, g);
+      })(
+        'https://utt.impactcdn.com/A3448976-88b5-48a9-bcc9-20da4ebb6d061.js',
+        'script',
+        'ire',
+        document,
+        window
+      );
+    </script>
+    <!-- End Impact tracking snippet -->
+    
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" data-react-helmet="true" />
+    <meta
+      property="og:url"
+      content="https://www.filmsupply.com/"
+      data-react-helmet="true"
+    />
+    <meta property="og:title" content="Filmsupply" data-react-helmet="true" />
+    <meta
+      property="og:description"
+      content="Filmsupply | Revolutionizing Stock Footage"
+      data-react-helmet="true"
+    />
+    <meta
+      property="og:image"
+      content="https://filmsupply-public.s3.amazonaws.com/site-assets/images/_social/fb_open-graph-default.jpg"
+      data-react-helmet="true"
+    />
+
+    <!-- Google Sign In -->
+    <script
+      src="https://accounts.google.com/gsi/client"
+      data-uc-allowed="true"
+      async
+      defer
+    ></script>
+
+    <!-- Twitter -->
+    <meta
+      property="twitter:card"
+      content="summary_large_image"
+      data-react-helmet="true"
+    />
+    <meta
+      property="twitter:url"
+      content="https://www.filmsupply.com/"
+      data-react-helmet="true"
+    />
+    <meta
+      property="twitter:title"
+      content="Filmsupply"
+      data-react-helmet="true"
+    />
+    <meta
+      property="twitter:description"
+      content="Filmsupply | Revolutionizing Stock Footage"
+      data-react-helmet="true"
+    />
+    <meta
+      property="twitter:image"
+      content="https://filmsupply-public.s3.amazonaws.com/site-assets/images/_social/fb_open-graph-default.jpg"
+      data-react-helmet="true"
+    />
+    <meta
+      property="twitter:image:alt"
+      content="Filmsupply | Revolutionizing Stock Footage"
+      data-react-helmet="true"
+    />
+
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="57x57"
+      href="https://filmsupply-public.s3.amazonaws.com/site-assets/favicons/apple-touch-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="114x114"
+      href="https://filmsupply-public.s3.amazonaws.com/site-assets/favicons/apple-touch-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="72x72"
+      href="https://filmsupply-public.s3.amazonaws.com/site-assets/favicons/apple-touch-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="144x144"
+      href="https://filmsupply-public.s3.amazonaws.com/site-assets/favicons/apple-touch-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="60x60"
+      href="https://filmsupply-public.s3.amazonaws.com/site-assets/favicons/apple-touch-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="120x120"
+      href="https://filmsupply-public.s3.amazonaws.com/site-assets/favicons/apple-touch-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="76x76"
+      href="https://filmsupply-public.s3.amazonaws.com/site-assets/favicons/apple-touch-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="152x152"
+      href="https://filmsupply-public.s3.amazonaws.com/site-assets/favicons/apple-touch-icon-152x152.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://filmsupply-public.s3.amazonaws.com/site-assets/favicons/favicon-196x196.png"
+      sizes="196x196"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://filmsupply-public.s3.amazonaws.com/site-assets/favicons/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://filmsupply-public.s3.amazonaws.com/site-assets/favicons/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://filmsupply-public.s3.amazonaws.com/site-assets/favicons/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://filmsupply-public.s3.amazonaws.com/site-assets/favicons/favicon-128.png"
+      sizes="128x128"
+    />
+    <link rel="stylesheet" href="https://use.typekit.net/zsf2lyi.css" />
+
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="/manifest.json" />
+    <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Filmsupply</title>
+    <script type="module" data-uc-allowed="true" crossorigin src="/assets/index-Crrlp2YK.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/sentry-DOz5fk7h.js">
+    <link rel="modulepreload" crossorigin href="/assets/emotion-B8adrdL8.js">
+    <link rel="modulepreload" crossorigin href="/assets/chakra-YmGfk45u.js">
+    <link rel="modulepreload" crossorigin href="/assets/query-DQ8Bflwz.js">
+    <link rel="modulepreload" crossorigin href="/assets/reactmatches-CQDN-VuA.js">
+    <link rel="modulepreload" crossorigin href="/assets/reacttooltip-CadlP1Nt.js">
+    <link rel="modulepreload" crossorigin href="/assets/cloudinary-Bm4U2iGr.js">
+    <link rel="modulepreload" crossorigin href="/assets/lodash-DspLEEvR.js">
+    <link rel="modulepreload" crossorigin href="/assets/date-BWdfJjW5.js">
+    <link rel="modulepreload" crossorigin href="/assets/reactspring-BINh42W8.js">
+    <link rel="modulepreload" crossorigin href="/assets/phosphorIcons-Hmh_uFUw.js">
+    <link rel="modulepreload" crossorigin href="/assets/growthbook-CG2rAwMD.js">
+    <link rel="modulepreload" crossorigin href="/assets/recaptcha-KkVMgpxk.js">
+    <link rel="modulepreload" crossorigin href="/assets/reactmodal-zZK1vBuH.js">
+    <link rel="modulepreload" crossorigin href="/assets/yup-DodVcSam.js">
+    <link rel="modulepreload" crossorigin href="/assets/payment-CXUz3Mr9.js">
+    <link rel="modulepreload" crossorigin href="/assets/currency-DS4wd9HN.js">
+    <link rel="modulepreload" crossorigin href="/assets/informed-wpn3sVWC.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-CK8h-scm.css">
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <!--Braintree FOR PAYPAL-->
+    <script
+      src="https://js.braintreegateway.com/v2/braintree.js"
+      data-uc-allowed="true"
+      async
+    ></script>
+    <div id="root"></div>
+  </body>
+</html>
